@@ -9,8 +9,10 @@
     var usd = 63.6282;
     var eur = 67.5413;
     var rub = prompt('Введите сумму, которую вы хотите конвертировать');
-    alert (rub + ' руб = ' + rub * usd + ' долларов');
-    alert (rub + ' руб = ' + rub * eur + ' евро');
+    var rubtoeur = rub/eur;
+    var rubtousd = rub/usd;
+    alert (rub + ' руб = ' + rubtousd.toFixed(2) + ' долларов \n' +
+            rub + ' руб = ' + rubtoeur.toFixed(2) + ' евро');
 </script>
 </body>
 </html>
