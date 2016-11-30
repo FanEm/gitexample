@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>PuzzleFunc</title>
+</head>
+<body>
+<script>
+    var score = 0;
+
+    function askQuestion(question, answer) {
+        var userAnswer = prompt(question);
+        userAnswer = userAnswer.toLowerCase();
+        if (userAnswer == answer){
+            alert('Congratulations! You are right');
+            score++
+        } else {
+            alert('Wrong');
+        }
+    }
+
+    askQuestion('Отгадай загадку, друг: ' +
+            '\nНе отыскать её корней,' +
+            '\nВерхушка выше тополей' +
+            '\nВсё круче вверх она идёт,' +
+            '\nА не растёт', 'гора')
+    askQuestion('А вот и еще одна: ' +
+            '\nТридцать белых коней' +
+            '\nНа двух красных холмах -' +
+            '\nРазбегутся, сшибутся' +
+            '\n И снова затихнут впотьмах', 'зубы')
+    askQuestion('Ну и последняя: ' +
+            '\nБез голоса кричит,' +
+            '\nБез крыльев - а летает,' +
+            '\nИ безо рта свистит,' +
+            '\nИ без зубов кусает', 'ветер')
+
+    alert('Ты отгадал ' + score + ' загадок');
+
+</script>
+</body>
+</html>
