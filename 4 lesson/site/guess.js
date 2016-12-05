@@ -1,3 +1,6 @@
+/**
+ * Created by fanem on 30.11.16.
+ */
 function playGuess() {
     var answer = parseInt(Math.random() * 100);
     var count = 0;

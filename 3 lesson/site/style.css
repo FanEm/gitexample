@@ -173,6 +173,7 @@ body {
     font-size: 20px;
     font-weight: 100;
     line-height: 140px;
+    min-width: 1300px;
 }
 
 #footer a {

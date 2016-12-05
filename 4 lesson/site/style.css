@@ -48,7 +48,7 @@ body {
     height: 806px;
     min-width: 1300px;
     margin: 0 auto;
-    min-height: calc(100vh - 140px);
+    min-height: calc(100vh - 140px); 
 }
 
 #content h1 {
@@ -116,7 +116,6 @@ body {
 #content #box {
     background-color: #ffffff;
     width: 1238px;
-    height: 446px;
     margin: 170px auto 0 auto;
     padding-top: 37px;
     padding-left: 38px;
@@ -152,7 +151,12 @@ body {
     text-align: center;
     text-decoration: none;
     margin-top: 30px;
+    margin-bottom: 30px;
     padding:11px 51px;
+}
+
+.clear {
+    clear: both;
 }
 
 #content #box a:hover {
@@ -169,6 +173,7 @@ body {
     font-size: 20px;
     font-weight: 100;
     line-height: 140px;
+    min-width: 1300px;
 }
 
 #footer a {
